@@ -46,8 +46,10 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Config.cs" />
-        <Compile Include="Document.cs" />
+        <Compile Include="Config\Config.cs" />
+        <Compile Include="Config\Configurations\IVehiclesConfiguration.cs" />
+        <Compile Include="Config\Document.cs" />
+        <Compile Include="Config\IDocument.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
